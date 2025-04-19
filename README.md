@@ -39,3 +39,4 @@ This approach ensures a high probability that your transaction will be included,
 ### Installation
 
 ```bash
+npm install ethers @flashbots/ethers-provider-bundle

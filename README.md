@@ -1,3 +1,18 @@
+🤖 What is Flashbots?
+Overview
+Flashbots is a research and development organization focused on solving problems related to Maximal Extractable Value (MEV) on Ethereum. It provides a way for users to send transaction bundles directly to miners (or validators in PoS), bypassing the public mempool.
+
+Key Benefits
+Privacy: Transactions sent through Flashbots do not appear in the public mempool, preventing front-running and sandwich attacks.
+
+Efficiency: Allows developers and traders to optimize MEV strategies like arbitrage or liquidation.
+
+Fairness: Facilitates a more transparent and structured relationship between searchers (users) and block producers.
+
+By using Flashbots, developers can create custom transaction strategies and ensure safe, targeted delivery of those transactions.
+npm install ethers @flashbots/ethers-provider-bundle
+
+
 # Flashbots Transaction Bundle Sender (Goerli Testnet)
 
 This project is a simple Node.js script that sends private transactions using **Flashbots** on the Ethereum Goerli testnet. The goal is to execute transactions in a secure and front-running-free environment, leveraging MEV (Maximal Extractable Value) infrastructure.
@@ -24,4 +39,3 @@ This approach ensures a high probability that your transaction will be included,
 ### Installation
 
 ```bash
-npm install ethers @flashbots/ethers-provider-bundle
